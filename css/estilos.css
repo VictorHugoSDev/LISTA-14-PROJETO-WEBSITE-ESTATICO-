@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: arial;
 }
 
-body{
+body {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -12,49 +12,46 @@ body{
     justify-content: center;
 }
 
-header{
+header,
+footer {
     width: 100%;
 }
 
-header h1, header h2{
+header h1,
+header h3 {
     color: white;
     text-align: right;
     padding: 10px;
 }
 
-header h2, footer{
-  background-color: #808080;
+header h3,
+footer {
+    background-color: #808080;
 }
 
-nav ul{
+nav ul {
     background-color: #7B7BFA;
-    color: white;
     text-align: center;
-    padding: 10px;
-    font-size: 18px;
+    padding: 10px 2px 10px 2px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
 }
 
-nav ul li a{
+nav ul li a,
+nav ul li a:visited {
     text-decoration: none;
     padding: 40px;
     color: white;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-nav ul li a:visited{
-    text-decoration: none;
-    padding: 40px;
-    color: white;
-}
 
-main{
+main {
     background-color: white;
     color: black;
     width: 1200px;
@@ -64,58 +61,58 @@ main{
     line-height: 1.3em;
 }
 
-main h2{
+main h2 {
     padding: 15px;
 }
 
-main h2:first-child{
+main h2:first-child {
     transition: all 0.5s;
     display: inline-block;
 }
 
-main h2:first-child:hover{
+main h2:first-child:hover {
     letter-spacing: 5px;
 }
 
-main p{
+main p {
     text-align: justify;
     padding: 15px;
+    line-height: 1.8em;
 }
 
-main a{
+main a {
     color: blue;
     padding-left: 15px;
 }
 
-.voltarAoTopo{
+.voltarAoTopo {
     display: inline-block;
     padding-top: 20px;
 }
 
-main ul{
+main ul {
     padding: 15px 15px 15px 50px;
-    line-height: 1.4em;
+    line-height: 1.6em;
 }
 
 
-main ul li a{
+main ul li a {
     padding: 0px;
 }
 
-main img{
+main img {
     width: 400px;
     margin: 10px auto;
     display: block;
 }
 
 
-footer{
-    width: 100%;
+footer {
     color: white;
     padding: 25px 0px 25px 0px;
     text-align: center;
 }
 
-footer a{
+footer a {
     color: #ADD8E6;
 }
